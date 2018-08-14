@@ -10,7 +10,7 @@ ADAFRUIT_IO_KEY = '3737c351de8e4f2b851d5dfd62118ef7'
 ADAFRUIT_IO_USERNAME = 'ChriisBrown'
 
 # Create an instance of the REST client.
-aio = Client(ChriisBrown, 3737c351de8e4f2b851d5dfd62118ef7)
+aio = Client(ADAFRUIT_IO_KEY, ADAFRUIT_IO_USERNAME)
 
 temperature_feed = aio.feeds('temperature')
 
